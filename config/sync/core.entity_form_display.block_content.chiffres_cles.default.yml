@@ -1,0 +1,47 @@
+uuid: a5ec3ec2-f7f5-4071-abb3-40cb2a210a9d
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.chiffres_cles
+    - field.field.block_content.chiffres_cles.body
+    - field.field.block_content.chiffres_cles.field_chiffre
+  module:
+    - text
+id: block_content.chiffres_cles.default
+targetEntityType: block_content
+bundle: chiffres_cles
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 26
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_chiffre:
+    weight: 27
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,33 @@
+uuid: 5fb07475-d71a-48dc-abc9-230cc5d4ce18
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.chiffres_cles
+    - field.field.block_content.chiffres_cles.body
+    - field.field.block_content.chiffres_cles.field_chiffre
+  module:
+    - text
+id: block_content.chiffres_cles.default
+targetEntityType: block_content
+bundle: chiffres_cles
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_chiffre:
+    weight: 1
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+hidden:
+  langcode: true
