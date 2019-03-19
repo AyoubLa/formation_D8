@@ -1,0 +1,11 @@
+uuid: a25e157f-3025-4e28-9cb7-30837ec759c6
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.chiffres_cles
+id: block_content.chiffres_cles
+target_entity_type_id: block_content
+target_bundle: chiffres_cles
+default_langcode: site_default
+language_alterable: false

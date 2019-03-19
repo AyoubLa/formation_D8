@@ -1,0 +1,23 @@
+uuid: 8a243c5c-8ea1-4a66-b7a7-5908b8146056
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.chiffres_cles
+    - field.storage.block_content.field_chiffre
+id: block_content.chiffres_cles.field_chiffre
+field_name: field_chiffre
+entity_type: block_content
+bundle: chiffres_cles
+label: Chiffre
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer
