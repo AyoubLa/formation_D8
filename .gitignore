@@ -27,6 +27,7 @@ sites/*/private
 
 /modules/contrib/*
 /themes/contrib/*
+/libraries/
 # Ignore SimpleTest multi-site environment.
 sites/simpletest
 
