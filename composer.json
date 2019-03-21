@@ -16,7 +16,10 @@
         "drupal/image_widget_crop": "^2.2",
         "drupal/inline_responsive_images": "^2.1",
         "drupal/paragraphs": "^1.6",
-        "drupal/entity_browser": "^2.1"
+        "drupal/entity_browser": "^2.1",
+        "drupal/inline_entity_form": "^1.0@RC",
+        "drupal/ctools": "^3.2",
+        "drupal/paragraphs_demo": "^1.7"
     },
     "replace": {
         "drupal/core": "^8.6"
